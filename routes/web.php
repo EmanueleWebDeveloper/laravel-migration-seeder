@@ -3,6 +3,7 @@
 use App\Http\Controllers\Guest\PageController;
 use Illuminate\Support\Facades\Route;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
