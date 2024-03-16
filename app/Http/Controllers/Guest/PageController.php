@@ -9,6 +9,7 @@ use App\Models\Train;
 class PageController extends Controller
 {
     public function index(){
-        return view('welcome');
+        $trains = Train::All();
+        return view('welcome', compact('trains'));
     }
 }
