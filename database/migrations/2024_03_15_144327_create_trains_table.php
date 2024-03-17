@@ -21,6 +21,7 @@ return new class extends Migration
             $table->integer('Numero_Carrozze');
             $table->boolean('In_orario')->default(true);
             $table->boolean('Cancellato')->default(false);
+            $table->date('Data_Partenza');
             $table->timestamps();
         });
     }
